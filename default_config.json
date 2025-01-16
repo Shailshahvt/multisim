@@ -1,0 +1,15 @@
+{
+  "simulation": {
+    "n_agents": 2,
+    "n_calls": 100,
+    "embedding_dim": 384,
+    "discount_factor": 0.5,
+    "bound_min": -1.0,
+    "bound_max": 1.0
+  },
+  "models": {
+    "feedback_model_path": "models/feedback_model.h5",
+    "llm_model": "gpt2",
+    "landscape_generator": null
+  }
+}
