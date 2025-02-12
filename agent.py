@@ -1,3 +1,5 @@
+#Please att tools and messages to the agent definition
+#See this for a guide on how we might use tools: https://cookbook.openai.com/examples/orchestrating_agents
 class Agent:
     def __init__(self, id, rl_model, feedback_model, llm_model=None):
         self.id = id
